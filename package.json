@@ -1,0 +1,32 @@
+{
+  "name": "workflow-test",
+  "version": "1.0.0",
+  "description": "Tutorial de automatizacion proyectos",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paul18design/workflow.git"
+  },
+  "author": "Paul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paul18design/workflow/issues"
+  },
+  "homepage": "https://github.com/paul18design/workflow#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.5",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^2.0.1"
+  },
+  "dependencies": {
+    "gulp-autoprefixer": "^4.1.0"
+  }
+}
