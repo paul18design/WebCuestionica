@@ -1,1 +1,0 @@
-!function(){var o;o="Paul ",console.info(o,", sup motherfuckers")}();
