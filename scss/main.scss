@@ -1,6 +1,23 @@
 @import "colors";
 body {
   background-color: $corporate-color;
-
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+/*Start Preloader Animation*/
+.preload {
+  position: absolute;
+  background-color: #00AEEF !important;
+  width: 100%;
+  min-height: 100vh;
+  margin: -8px;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.cerrar {
+  transform: translateX(-100%);
+  transition: all 0.5s;
+}

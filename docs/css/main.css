@@ -1,1 +1,1 @@
-body{background-color:#00aeef}
+body{background-color:#00aeef;overflow-x:hidden;overflow-y:visible}.preload{position:absolute;background-color:#00aeef!important;width:100%;min-height:100vh;margin:-8px;z-index:1;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.cerrar{-webkit-transform:translateX(-100%);transform:translateX(-100%);-webkit-transition:all .5s;transition:all .5s}
