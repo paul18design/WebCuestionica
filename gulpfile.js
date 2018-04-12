@@ -32,7 +32,7 @@ gulp.task('images', function() {
 
 gulp.task('javascript', function() {
         gulp.src('docs/js/*.js')
-            .pipe(uglify())
+           // .pipe(uglify())
             .pipe(gulp.dest('docs/js/dist'));
 });
 
