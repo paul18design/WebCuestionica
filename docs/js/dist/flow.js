@@ -13,6 +13,28 @@
         currentImageIndex = currentIndex * 3;
         currentTextIndex = currentImageIndex + 1;
         currentNumberIndex = currentImageIndex + 2;
+        $('.pieces-slider__canvas').hover(function() {
+            $(this).css('cursor', 'pointer');
+        });
+        $('.pieces-slider__canvas').click(function(){
+            switch (currentIndex){
+                case 0:
+                    window.location.href = "https://www.google.com.co/";
+                    break;
+                case 1:
+                    window.location.href = "https://www.google.com.co/";
+                    break;
+                case 2:
+                    window.location.href = "https://www.google.com.co/";
+                    break;
+                case 3:
+                    window.location.href = "https://www.google.com.co/";
+                    break;
+                case 4:
+                    window.location.href = "https://www.google.com.co/";
+                    break;
+            }
+        });
     }
     updateIndexes();
     var textIndexes = [];
@@ -213,3 +235,4 @@
     }, 500);
     }
 })();
+
