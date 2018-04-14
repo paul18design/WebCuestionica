@@ -20,7 +20,7 @@ gulp.task('default', ['css', 'javascript'], function(){
 
 gulp.task('html', function() {
     return gulp.src('./*.html')
-        .pipe(htmlmin({collapseWhitespace: true}))
+        //.pipe(htmlmin({collapseWhitespace: true}))
         .pipe(gulp.dest('docs'));
 });
 
