@@ -16,6 +16,8 @@ body {
 
 .colsplit {
   display: inline-block;
+  margin-top: 0;
+  margin-bottom: 5px;
 }
 
 /*Start Preloader Animation*/
@@ -187,6 +189,8 @@ main {
   font-family: 'Josefin Sans Regular' sans-serif;
   list-style: none;
   margin: 0;
+  padding-left: 0;
+  padding-bottom: 10px;
 }
 
 .footer_list li{
@@ -272,7 +276,7 @@ main {
 .js .pieces-slider__canvas {
   position: relative;
   width: 100vw;
-  height: 70vh;
+  height: 78vh;
   transition: 0.2s opacity;
 }
 
@@ -312,6 +316,11 @@ main {
 
 /* Media queries with styles for smaller screens */
 
+@media screen and (max-width: 480px) {
+.js .pieces-slider__canvas {
+  height: 50vh;
+}
+}
 
 @media screen and (max-width: 375px) {
   .header{
@@ -367,7 +376,6 @@ main {
     flex-direction: column;
     height: auto;
     min-height: 0;
-    padding-bottom: 10em;
   }
 }
 /* Media queries with styles for smaller screens */
@@ -395,6 +403,5 @@ main {
     flex-direction: column;
     height: auto;
     min-height: 0;
-    padding-bottom: 10em;
   }
 }
