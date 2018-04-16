@@ -1,4 +1,96 @@
-<!DOCTYPE html><html lang="en" class="no-js"><head><meta charset="UTF-8"><title>Cuestiónica</title><meta name="descripition" content=""><meta name="viewport" content="width=device-width,initial-scale1"><link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet"><link rel="stylesheet" href="css/main.css" type="text/css"><link rel="stylesheet" href="css/animate.css" type="text/css"><link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png"><link rel="manifest" href="favicon/site.webmanifest"><link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5"><script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script><script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script></head><body><div class="preload" id="container"><aside class="home__intro animated zoomIn"><div class="home__intro__logo"><svg class="logo_large logo_large-dism" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="95px" height="94px"><path fill-rule="evenodd" fill="rgb(255, 255, 255)" d="M61.172,56.469 C61.173,56.157 61.173,55.841 61.173,55.520 C61.173,42.707 60.556,36.242 53.149,36.242 C49.231,36.242 47.214,38.052 46.182,41.652 L35.063,30.661 C38.860,27.268 44.575,25.259 53.149,25.259 C76.109,25.259 78.577,39.658 78.577,56.494 C78.577,62.403 78.298,67.771 77.265,72.377 L61.172,56.469 ZM42.534,17.450 L53.643,0.003 L70.308,0.003 L50.558,17.450 L42.534,17.450 ZM92.678,94.002 L-0.000,2.393 L2.320,0.100 L94.997,91.709 L92.678,94.002 Z"/></svg> <span id="eco" class="overlay"></span></div></aside><aside class="animated zoomIn"><div class="middle logo_min animated zoomIn"></div></aside></div><div class="header"><span class="logo_head"></span></div><main><div class="content"><!-- Pieces Slider --><div class="pieces-slider"><div class="pieces-slider__slide"><img class="pieces-slider__image" src="img/que_hacemos.jpg" alt=""><div class="pieces-slider__text">Que Hacemos</div></div><div class="pieces-slider__slide"><img class="pieces-slider__image" src="img/servicios.jpg" alt=""><div class="pieces-slider__text">Servicios</div></div><div class="pieces-slider__slide"><img class="pieces-slider__image" src="img/quienes_somos.jpg" alt=""><div class="pieces-slider__text">Quienes Somos</div></div><div class="pieces-slider__slide"><img class="pieces-slider__image" src="img/cursos.jpg" alt=""><div class="pieces-slider__text">Cursos</div></div><div class="pieces-slider__slide"><img class="pieces-slider__image" src="img/contacto.jpg" alt=""><div class="pieces-slider__text">Contacto</div></div><!-- Canvas to draw the pieces --><canvas class="pieces-slider__canvas"></canvas><!-- Slider buttons: prev and next --> <button class="pieces-slider__button pieces-slider__button--prev">Anterior</button> <button class="pieces-slider__button pieces-slider__button--next">Siguiente</button></div></div></main><footer><div class="text-center"><div class="text-center">Tel: (+57) 304 4553448 · (+57) 310 2810568 Mail: <a href="mailto:info@cuestionica.com">info@cuestionica.com</a></div><ul class="footer_list"><li><a href="https://www.facebook.com/Cuestionica/" target="_blank"><span class="social fb"></span></a></li><li><a href="https://www.instagram.com/cuestionica/?hl=es-la" target="_blank"><span class="social in"></span></a></li></ul><div class="text-center">Copyright© 2018 Cuestiónica- Todos los derechos reservados</div><div class="text-center">Diseñado y desarrollado por <a href="https://iccana.com.co/" target="_blank">Agencia ICCANA</a></div></div></footer><script src="js/anime.min.js" type="text/javascript"></script><script src="js/pieces.min.js" type="text/javascript"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js"></script><script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2/velocity.ui.min.js"></script><script src="js/flow.js" type="text/javascript"></script><script>var container = document.getElementById('container');
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <title>Cuestiónica</title>
+    <meta name="descripition" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <script
+            src="https://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+            crossorigin="anonymous"></script>
+    <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+</head>
+<body>
+<div class="preload" id="container">
+    <aside class="home__intro animated zoomIn">
+        <div class="home__intro__logo">
+            <svg class="logo_large logo_large-dism" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="95px" height="94px">
+                <path fill-rule="evenodd"  fill="rgb(255, 255, 255)" d="M61.172,56.469 C61.173,56.157 61.173,55.841 61.173,55.520 C61.173,42.707 60.556,36.242 53.149,36.242 C49.231,36.242 47.214,38.052 46.182,41.652 L35.063,30.661 C38.860,27.268 44.575,25.259 53.149,25.259 C76.109,25.259 78.577,39.658 78.577,56.494 C78.577,62.403 78.298,67.771 77.265,72.377 L61.172,56.469 ZM42.534,17.450 L53.643,0.003 L70.308,0.003 L50.558,17.450 L42.534,17.450 ZM92.678,94.002 L-0.000,2.393 L2.320,0.100 L94.997,91.709 L92.678,94.002 Z"/>
+            </svg>
+            <span id="eco" class="overlay"></span>
+        </div>
+    </aside>
+    <aside class="animated zoomIn ">
+            <div class="middle logo_min animated zoomIn"></div>
+    </aside>
+</div>
+<div class="header">
+    <span class="logo_head"></span>
+</div>
+
+<main>
+    <div class="content">
+        <!-- Pieces Slider -->
+        <div class="pieces-slider">
+            <div class="pieces-slider__slide">
+                <img class="pieces-slider__image" src="img/que_hacemos.jpg" alt="">
+                <div class="pieces-slider__text">Que Hacemos</div>
+            </div>
+            <div class="pieces-slider__slide">
+                <img class="pieces-slider__image" src="img/servicios.jpg" alt="">
+                <div class="pieces-slider__text">Servicios</div>
+            </div>
+            <div class="pieces-slider__slide">
+                <img class="pieces-slider__image" src="img/quienes_somos.jpg" alt="">
+                <div class="pieces-slider__text">Quiénes Somos</div>
+            </div>
+            <div class="pieces-slider__slide">
+                <img class="pieces-slider__image" src="img/cursos.jpg" alt="">
+                <div class="pieces-slider__text">Cursos</div>
+            </div>
+            <div class="pieces-slider__slide">
+                <img class="pieces-slider__image" src="img/contacto.jpg" alt="">
+                <div class="pieces-slider__text">Contacto</div>
+            </div>
+            <!-- Canvas to draw the pieces -->
+            <canvas class="pieces-slider__canvas"></canvas>
+            <!-- Slider buttons: prev and next -->
+            <button class="pieces-slider__button pieces-slider__button--prev">Anterior</button>
+            <button class="pieces-slider__button pieces-slider__button--next">Siguiente</button>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="text-center">
+        <div class="text-center">
+            <p class="colsplit">Tel: (+57) 304 4553448 · (+57) 310 2810568</p>&nbsp;<p class="colsplit">Mail: <a href="mailto:info@cuestionica.com">info@cuestionica.com</a></p>
+        </div>
+        <ul class="footer_list">
+            <li><a href="https://www.facebook.com/Cuestionica/" target="_blank"><span class="social fb"></span></a></li>
+            <li><a href="https://www.instagram.com/cuestionica/?hl=es-la" target="_blank"><span class="social in"></span></a></li>
+        </ul>
+        <div class="text-center">Copyright© 2018 Cuestiónica- Todos los derechos reservados </div>
+        <div class="text-center">Diseñado y desarrollado por <a href="https://iccana.com.co/" target="_blank">Agencia ICCANA</a></div>
+    </div>
+</footer>
+
+<script src="js/anime.min.js" type="text/javascript"></script>
+<script src="js/pieces.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2/velocity.ui.min.js"></script>
+<script src="js/flow.js" type="text/javascript"></script>
+<script>
+    var container = document.getElementById('container');
     setTimeout(function() {
         container.classList.add('cerrar');
         document.body.style.overflowY= "visible";// despueés de cargar le devolvemos el scroll
@@ -13,4 +105,7 @@
             $(".middle").addClass('siko');
             /*$(".overlay").addClass('hidden');*/
         }
-    });</script></body></html>
+    });
+</script>
+</body>
+</html>
