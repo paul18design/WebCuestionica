@@ -2,6 +2,7 @@ html {
   min-height: 100%;
   position: relative;
   font-family: 'Josefin Sans', sans-serif;
+  overflow-x: hidden;
 }
 body {
   background-color: #00AEEF;
@@ -12,6 +13,11 @@ body {
   text-align: center;
 
 }
+
+.colsplit {
+  display: inline-block;
+}
+
 /*Start Preloader Animation*/
 .preload {
   position: absolute;
@@ -177,6 +183,7 @@ main {
 }
 
 .footer_list{
+  font-family: 'Josefin Sans Regular' sans-serif;
   list-style: none;
   margin: 0;
 }
@@ -204,6 +211,25 @@ main {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
+}
+
+
+@media screen and(max-width: 375px) {
+  .logo_head{
+    background-size: 40%;
+  }
+}
+
+@media screen and(max-width: 480px) {
+  .logo_head{
+    background-size: 70%;
+  }
+}
+
+@media screen and(max-width: 880px) {
+  .logo_head{
+    background-size: 70%;
+  }
 }
 
 /*Estilos base fin*/
@@ -258,11 +284,11 @@ main {
 /* Navigation buttons */
 .pieces-slider__button {
   position: absolute;
-  left: 15px;
+  left: 5px;
   top: 50%;
   width: 100px;
   height: 100px;
-  margin: -25px 40px 0 0;
+  margin: -25px 35px 0 0;
   background-color: transparent;
   color: #fff;
   font-family: 'Josefin Sans', sans-serif;
@@ -343,4 +369,31 @@ main {
     padding-bottom: 10em;
   }
 }
+/* Media queries with styles for smaller screens */
+@media screen and (max-width: 720px) {
+  .pieces-slider__image {
+      max-width: 300px;
+  }
+}
 
+@media screen and (max-width: 55em) {
+  .pieces-slider__canvas {
+      width: 100vw;
+      height: 100vw;
+  }
+  .pieces-slider__button {
+      width: 60px;
+      height: 60px;
+  }
+}
+@media screen and (max-width: 55em) {
+  body {
+    overflow: auto;
+  }
+  .content {
+    flex-direction: column;
+    height: auto;
+    min-height: 0;
+    padding-bottom: 10em;
+  }
+}

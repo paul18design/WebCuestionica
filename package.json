@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paul18design/workflow.git"
+    "url": "git+https://github.com/paul18design/WebCuestionica.git"
   },
   "author": "Paul",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/paul18design/workflow/issues"
+    "url": "https://github.com/paul18design/WebCuestionica/issues"
   },
-  "homepage": "https://github.com/paul18design/workflow#readme",
+  "homepage": "https://github.com/paul18design/WebCuestionica#readme",
   "devDependencies": {
     "browser-sync": "^2.23.5",
     "gulp": "^3.9.1",
@@ -27,6 +27,7 @@
     "pump": "^2.0.1"
   },
   "dependencies": {
+    "git": "^0.1.5",
     "gulp-autoprefixer": "^4.1.0"
   }
 }
