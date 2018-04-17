@@ -289,11 +289,11 @@ main {
 /* Navigation buttons */
 .pieces-slider__button {
   position: absolute;
-  left: 5px;
+  left: -12px;
   top: 50%;
   width: 100px;
   height: 100px;
-  margin: -25px 35px 0 0;
+  margin: -25px -9px 0 0;
   background-color: transparent;
   color: #fff;
   font-family: 'Josefin Sans', sans-serif;
@@ -315,6 +315,12 @@ main {
 }
 
 /* Media queries with styles for smaller screens */
+
+//@media (min-width: 360px) and (max-width: 400px)  {
+//.pieces-slider__button{
+//
+//}
+//}
 
 @media screen and (max-width: 480px) {
 .js .pieces-slider__canvas {
