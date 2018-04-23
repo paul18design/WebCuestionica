@@ -19,7 +19,7 @@
         $('.pieces-slider__canvas').click(function(){
             switch (currentIndex){
                 case 0:
-                    window.location.href = "https://www.google.com.co/";
+                    window.location.href = "que_hacemos.html";
                     break;
                 case 1:
                     window.location.href = "https://www.google.com.co/";
