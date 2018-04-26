@@ -9,6 +9,7 @@ body{
 
 .head{
   background-color: #006699;
+  max-height: 30px;
 }
 
 .head-social_list{
@@ -17,6 +18,8 @@ body{
 
 .head-social_list li{
   display: inline-block;
+  padding-top: 5px;
+  text-align: center;
 }
 
 .social{
