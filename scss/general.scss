@@ -41,3 +41,23 @@ body{
   background-position: 50%;
   background-size: 100%;
 }
+
+.navbar{
+  padding: 40px 0;
+}
+
+.nav-item a{
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.banner-img{
+  padding: 0 !important;
+}
+
+.forest-img{
+  background-image: url("../img/forest.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
