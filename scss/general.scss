@@ -65,6 +65,7 @@ body{
   font-size: 28px;
   font-weight: 800;
   text-transform: uppercase;
+  margin-bottom: 0;
 }
 
 .team-action_sub {
@@ -74,9 +75,19 @@ body{
   padding-bottom: 40px;
 }
 
-.content{padding-top:80px; padding-bottom:80px;}
 .mb40{margin-bottom:40px;}
 .team-block { margin-bottom: 20px; }
 .team-content { position: absolute; background-color: rgba(17, 24, 31, 0.8); bottom: 0px; display: inline-block; width: 100%; color: #fff; padding: 30px; }
 .team-img { position: relative; }
 .team-img img { width: 100%; }
+
+.themes-work{
+  background-color: #FFFFFF;
+}
+
+.themes-work_title{
+  color: #1b1464;
+  font-size: 45px;
+  font-weight: 800;
+  padding-top: 60px;
+}
