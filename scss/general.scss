@@ -156,3 +156,28 @@ body{
 .social-list li{
   display: inline-block;
 }
+
+.services-profiles{
+  background-color: #FFFFFF;
+}
+
+.img-personas{
+  background-image: url("../img/square.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+}
+
+.profile{
+  min-height: 600px;
+}
+
+.profile img{
+  position: absolute;
+  top: 65%;
+  left: 5%;
+}
+
+.bg-title{
+  position: absolute;
+}

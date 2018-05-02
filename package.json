@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "git": "^0.1.5",
-    "gulp-autoprefixer": "^4.1.0"
+    "gulp-autoprefixer": "^4.1.0",
+    "npm": "^6.0.0"
   }
 }

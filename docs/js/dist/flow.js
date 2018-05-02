@@ -22,7 +22,7 @@
                     window.location.href = "que_hacemos.html";
                     break;
                 case 1:
-                    window.location.href = "https://www.google.com.co/";
+                    window.location.href = "servicios.html";
                     break;
                 case 2:
                     window.location.href = "https://www.google.com.co/";
