@@ -202,3 +202,38 @@ body{
 .title-des{
   display: inline-block;
 }
+
+.ejes{
+  padding-top: 50px;
+  background-color: #FFFFFF;
+}
+
+.program-content{
+  padding: 50px 30px 0 30px;
+}
+
+.program-text{
+  background-image: url("../img/bg-title_program.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  padding:140px 0;
+  color: #1b1464;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.program-sub{
+  margin-top: 35px;
+  color: #dcdcdc;
+  font-size: 22px;
+  padding: 10px 0 ;
+  line-height: 22px;
+  padding-right: 10px;
+  background-color: #5a318b;
+}
+
+.program-img{
+  padding-top: 80px;
+  padding-left: 100px;
+}
