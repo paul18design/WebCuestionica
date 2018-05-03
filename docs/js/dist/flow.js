@@ -25,13 +25,13 @@
                     window.location.href = "servicios.html";
                     break;
                 case 2:
-                    window.location.href = "https://www.google.com.co/";
+                    window.location.href = "quienes_somos.html";
                     break;
                 case 3:
-                    window.location.href = "https://www.google.com.co/";
+                    window.location.href = "cursos.html";
                     break;
                 case 4:
-                    window.location.href = "https://www.google.com.co/";
+                    window.location.href = "contacto.html";
                     break;
             }
         });

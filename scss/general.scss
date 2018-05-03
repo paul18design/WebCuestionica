@@ -123,6 +123,14 @@ body{
 .pr10{padding-right: 10px;}
 .pr05{padding-right: 5px;}
 
+.banner-forest{
+  background-image: url("../img/forest.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+
+}
+
 .team-block { margin-bottom: 20px; }
 .team-img { position: relative; }
 .team-img img { width: 100%; }
@@ -162,7 +170,14 @@ body{
 }
 
 .img-personas{
-  background-image: url("../img/square.jpg");
+  background-image: url("../img/personas.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+}
+
+.img-empresas{
+  background-image: url("../img/empresas.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center center;
@@ -172,12 +187,18 @@ body{
   min-height: 600px;
 }
 
-.profile img{
+.profile a{
   position: absolute;
   top: 65%;
   left: 5%;
+  color: #FFFFFF;
+  font-size: 28px;
 }
 
 .bg-title{
-  position: absolute;
+  min-height: 800px;
+}
+
+.title-des{
+  display: inline-block;
 }
