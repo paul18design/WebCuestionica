@@ -1,5 +1,5 @@
 body{
-  background-color: #00AEEF;
+  background-color: #FFFFFF;
   width: 100vw;
   overflow-x: hidden;
   overflow-y: visible;
@@ -42,6 +42,7 @@ body{
 }
 
 .navbar{
+  background-color: #00abeb;
   padding: 40px 0;
 }
 
@@ -73,6 +74,15 @@ body{
   padding-bottom: 40px;
 }
 
+.team-content{
+  margin-top: 280px;
+  padding: 20px 15px;
+}
+
+.team-content p{
+  line-height: 15px;
+}
+
 .mb40{margin-bottom:40px;}
 .mb30{margin-bottom: 30px;}
 .mb25{margin-bottom: 25px;}
@@ -90,6 +100,17 @@ body{
 .mt10{margin-top: 10px;}
 .mt05{margin-top: 5px;}
 
+
+.p40{padding:40px;}
+.p30{padding: 30px;}
+.p25{padding: 25px;}
+.p20{padding: 20px;}
+.p15{padding: 15px;}
+.p10{padding: 10px;}
+.p05{padding: 5px;}
+
+.pb50{padding-bottom:50px;}
+.pb45{padding-bottom:45px;}
 .pb40{padding-bottom:40px;}
 .pb30{padding-bottom: 30px;}
 .pb25{padding-bottom: 25px;}
@@ -98,6 +119,7 @@ body{
 .pb10{padding-bottom: 10px;}
 .pb05{padding-bottom: 5px;}
 
+.pt50{padding-top:50px;}
 .pt40{padding-top:40px;}
 .pt30{padding-top: 30px;}
 .pt25{padding-top: 25px;}
@@ -121,19 +143,75 @@ body{
 .pr20{padding-right: 20px;}
 .pr15{padding-right: 15px;}
 .pr10{padding-right: 10px;}
-.pr05{padding-right: 5px;}
+
+
+.s5{font-size: 5px;}
+.s10{font-size: 10px;}
+.s15{font-size: 15px;}
+.s20{font-size: 20px;}
+.s25{font-size: 25px;}
+.s30{font-size: 30px;}
+.s35{font-size: 35px;}
+.s40{font-size: 40px;}
+.s45{font-size: 45px;}
+.s50{font-size: 50px;}
+.s55{font-size: 55px;}
+.s60{font-size: 60px;}
+
+
+.f-bold{font-weight: 800;}
+.f-light{font-weight: 400;}
+.f-regular{font-weight: 200;}
+
+
+
+.cblack{color: #000000;}
+.cwhite{color: #FFFFFF;}
+.cblu-light{color: #00abeb;}
+.cviolet{color: #1b1464;}
+
+.bg-white{background-color: #FFFFFF;}
+.bg-gray{background-color: #b6b6b6;}
+.bg-violet{background-color: #1b1464;}
+.bg-blulight {background-color: #00aeef;}
 
 .banner-forest{
   background-image: url("../img/forest.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center center;
+  height: 844px;
 
 }
 
 .team-block { margin-bottom: 20px; }
-.team-img { position: relative; }
+.team-img { position: relative; min-height: 473px;}
 .team-img img { width: 100%; }
+
+.product-img{
+  background-image: url("../img/pro.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  padding: 15px
+}
+
+.motivation-img{
+  background-image: url("../img/motivation.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  padding: 15px
+}
+
+
+.comunication-img {
+  background-image: url("../img/comunication.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  padding: 15px
+}
 
 .themes-work{
   background-color: #FFFFFF;
@@ -148,8 +226,14 @@ body{
 
 .themes-work_sub{
   color: #1b1464;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
+  line-height: 8px;
+  padding-right: 420px;
+}
+
+footer{
+  background-color: #00abeb;
 }
 
 .footer-copy{
@@ -169,6 +253,25 @@ body{
   background-color: #FFFFFF;
 }
 
+.icon-person {
+  background-image: url("../img/person-title.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 60px;
+  background-position: center center;
+  display: inline-block;
+}
+
+.icon-company {
+  background-image: url("../img/empresas-title.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 45px;
+  background-position: center center;
+  display: inline-block;
+}
 .img-personas{
   background-image: url("../img/personas.png");
   background-repeat: no-repeat;
@@ -193,14 +296,19 @@ body{
   left: 5%;
   color: #FFFFFF;
   font-size: 28px;
-}
-
-.bg-title{
-  min-height: 800px;
+  text-decoration: none;
+  background-color: #1b1464;
+  padding: 20px 15px;
+  line-height: inherit;
 }
 
 .title-des{
-  display: inline-block;
+  position: absolute;
+  right: 350px;
+  top: 550px;
+  max-width: 450px;
+  padding: 20px;
+  background-color: #1b1464;
 }
 
 .ejes{
@@ -234,6 +342,93 @@ body{
 }
 
 .program-img{
-  padding-top: 80px;
-  padding-left: 100px;
+  padding-top: 50px;
+  padding-left: 50px;
 }
+
+
+
+.title-team{
+  text-align: center;
+  font-size: 58px;
+}
+
+
+.subtitulo{
+  line-height: 12px;
+}
+.quote{
+  font-style: italic;
+  font-weight:200;
+}
+
+.clients-list{
+  display: inline-block;
+}
+.team{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #1b1464;
+  background-image: url("../img/equipo-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.box-item{
+  min-height: 500px;
+}
+
+
+.team-action .team-content:after, .team-action .team-content:before {
+  content: "";
+  width: 91%;
+  height: 32px;
+  display: inline-block;
+  position: absolute;
+  background: #1b1464;
+  z-index: 0;
+}
+
+.team-content:after {
+  left: 15px;
+  bottom: 28px;
+  transform: rotate(2deg);
+}
+.team-action .team-content:before{
+  left: 15px;
+  top: 272px;
+  transform: rotate(-2deg);
+}
+
+.team-action .eco:last-child .team-content:after, .team-action .eco:first-child .team-content:after {
+  height: 12px;
+}
+.cursos{
+  background-color: #00abeb;
+}
+.sub-curso{
+  vertical-align: middle;
+}
+
+.cursos-des{
+  vertical-align: middle;
+}
+.icon-cuest {
+  background-image: url("../img/icon-cuest.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+
+.dwn-button{
+  padding: 20px 30px;
+}
+//@media  {
+//
+//}
