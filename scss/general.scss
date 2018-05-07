@@ -1,5 +1,11 @@
+html {
+  min-height: 100vh;
+  position: relative;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 body{
-  background-color: #FFFFFF;
+  background-color: #00AEEF;
   width: 100vw;
   overflow-x: hidden;
   overflow-y: visible;
@@ -42,13 +48,23 @@ body{
 }
 
 .navbar{
-  background-color: #00abeb;
+  background-color: #00AEEF;
   padding: 40px 0;
 }
 
 .nav-item a{
   font-size: 12px;
   font-weight: 500;
+}
+
+.cuestionica-logo {
+  background-image: url("../img/cuestionica_logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  display: inline-block;
+  width: 250px;
+  height: 66px;
 }
 
 .banner-img{
@@ -179,13 +195,23 @@ body{
 .bg-blulight {background-color: #00aeef;}
 .bg-bludark {background-color: #1b1464;}
 
+
 .banner-forest{
   background-image: url("../img/forest.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: center center;
-  height: 844px;
+  height: 100vh;
 
+}
+
+.banner-personas {
+  background-image: url("../img/banner_contacto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100vw;
 }
 
 .team-block { margin-bottom: 20px; }
@@ -237,12 +263,52 @@ body{
 }
 
 footer{
-  background-color: #00abeb;
+  background-color: #00AEEF;
 }
 
 .footer-copy{
   font-size: 14px;
   font-weight: 300;
+}
+
+.insta {
+  background-image: url("../img/instagram.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+
+.facebook {
+  background-image: url("../img/facebook.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+
+.location {
+  background-image: url("../img/location-icon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+
+.icon-phone {
+  background-image: url("../img/icon-phone.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
 }
 
 .social-list{
@@ -307,12 +373,52 @@ footer{
 }
 
 .title-des{
-  position: absolute;
-  right: 350px;
-  top: 550px;
+  max-width: 450px;
+  padding: 20px;
+  background-color: #5a318b;
+  margin-top: 45vh;
+  display: inline-block;
+}
+
+
+.title-personas {
   max-width: 450px;
   padding: 20px;
   background-color: #1b1464;
+  margin-top: 45vh;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.des-personas {
+  background-color: #1b1464;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.complement-img {
+  background-color: #00AEEF;
+
+}
+
+.complement-talleres {
+  background-image: url("../img/personas-icon1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+.talleres {
+  background-image: url("../img/personas-icon1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
 }
 
 .ejes{
@@ -364,6 +470,10 @@ footer{
 .quote{
   font-style: italic;
   font-weight:200;
+}
+
+.clients {
+  background-color: #FFFFFF;
 }
 
 .clients-list{
