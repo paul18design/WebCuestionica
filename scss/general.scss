@@ -400,6 +400,10 @@ footer{
   background-color: #00AEEF;
 
 }
+.complement-empresas {
+  background-color: #00AEEF;
+}
+
 
 .complement-talleres {
   background-image: url("../img/personas-icon1.png");
@@ -479,6 +483,37 @@ footer{
 .clients-list{
   display: inline-block;
 }
+
+.bienestar {
+  background-image: url("../img/bienestar-logo.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  display: inline-block;
+  width: 63px;
+  height: 80px;
+}
+
+.madrid{
+  background-image: url("../img/fundacion-real.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  display: inline-block;
+  width: 105px;
+  height: 45px;
+}
+
+.caracol {
+  background-image: url("../img/caracol-logo.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  display: inline-block;
+  width: 121px;
+  height: 60px;
+}
+
 .team{
   padding-top: 50px;
   padding-bottom: 50px;
