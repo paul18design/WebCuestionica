@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'AfterNight';
+  src: url('../fonts/AfterNight.eot');
+  src: url('../fonts/AfterNight.eot') format('embedded-opentype'), url('../fonts/AfterNight.ttf') format('truetype'), url('../fonts/AfterNight.woff') format('woff'), url('../fonts/AfterNight.svg#AfterNight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 html {
   min-height: 100vh;
   position: relative;
@@ -40,12 +49,6 @@ body{
   background-size: 100%;
 }
 
-.in{
-  background-image: url("../img/instagram.png");
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-size: 100%;
-}
 
 .navbar{
   background-color: #00AEEF;
@@ -176,13 +179,20 @@ body{
 .s50{font-size: 50px;}
 .s55{font-size: 55px;}
 .s60{font-size: 60px;}
+.s65{font-size: 65px;}
+.s70{font-size: 70px;}
+.s75{font-size: 75px;}
+.s80{font-size: 80px;}
+.s85{font-size: 85px;}
 
 
 .f-bold{font-weight: 800;}
 .f-light{font-weight: 400;}
 .f-regular{font-weight: 200;}
 
-
+.title-after {
+  font-family: 'After Night';
+}
 
 .cblack{color: #000000;}
 .cwhite{color: #FFFFFF;}
@@ -197,7 +207,7 @@ body{
 
 
 .banner-forest{
-  background-image: url("../img/forest.jpg");
+  background-image: url("../img/quienes-somos_banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -249,8 +259,6 @@ body{
 
 .themes-work_title{
   color: #1b1464;
-  font-size: 45px;
-  font-weight: 800;
   padding-top: 60px;
 }
 
@@ -267,8 +275,16 @@ footer{
 }
 
 .footer-copy{
+  background-image: url("../img/instagram.png");
   font-size: 14px;
   font-weight: 300;
+}
+
+.instahome {
+  background-image: url("../img/instagram.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100%;
 }
 
 .insta {
@@ -471,7 +487,6 @@ footer{
 
 .title-team{
   text-align: center;
-  font-size: 58px;
 }
 
 
