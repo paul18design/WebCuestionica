@@ -327,6 +327,16 @@ footer{
   display: inline-block;
 }
 
+.title-plus{
+  background-image: url("../img/title-plus.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+
 .social-list{
   list-style: none;
 }
